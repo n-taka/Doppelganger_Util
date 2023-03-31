@@ -143,11 +143,11 @@ namespace Doppelganger
 					std::string redirectedUrl("");
 					if (response.find("location") != response.end())
 					{
-						redirectedUrl = response.at("location").to_string();
+						redirectedUrl = response.at("location");
 					}
 					else if (response.find("Location") != response.end())
 					{
-						redirectedUrl = response.at("Location").to_string();
+						redirectedUrl = response.at("Location");
 					}
 
 					if (!redirectedUrl.empty())
