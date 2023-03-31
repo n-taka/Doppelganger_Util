@@ -5,6 +5,7 @@
 
 #include <string>
 #include <fstream>
+#include <vector>
 #include <boost/beast/core/detail/base64.hpp>
 
 namespace Doppelganger

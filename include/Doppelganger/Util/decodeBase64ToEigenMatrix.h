@@ -2,6 +2,7 @@
 #define DECODEBASE64TOEIGENMATRIX_H
 
 #include <string>
+#include <vector>
 #include "Eigen/Core"
 #include <boost/beast/core/detail/base64.hpp>
 
